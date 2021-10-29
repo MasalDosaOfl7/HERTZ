@@ -11,7 +11,7 @@ CREATE TABLE `user` (
   `password` varchar(255) DEFAULT NULL,
   `first_name` varchar(255) DEFAULT NULL,
   `last_name` varchar(255) DEFAULT NULL,
-  'e_mail' varchar(255) DEFAULT NULL,
+  `e_mail` varchar(255) DEFAULT NULL,
   `num_of_playlists` int(11) DEFAULT '0',
   PRIMARY KEY (`userID`),
   UNIQUE KEY `user_name_UNIQUE` (`user_name`)
@@ -33,6 +33,11 @@ CREATE TABLE `song` (
   PRIMARY KEY (`SongID`)
 ) AUTO_INCREMENT = 1;
 
+INSERT INTO `song` VALUES(1, 'Happy', 'Girl', 'Pharrell Williams', 'Pharrell Williams', 'Pop', 'Music/Happy');
+INSERT INTO `song` VALUES(2, 'Radioactive', 'Night Visions', 'Imagine Dragons', 'Imagine Dragons', 'Rock', 'Music/Radioactive');
+INSERT INTO `song` VALUES(3, 'Blinding Lights', 'After Hours', 'Weekend', 'Weekend', 'Pop', 'Music/Blinding_Lights');
+INSERT INTO `song` VALUES(4, 'Despacito', 'Despacito', 'Luis Fonsi', 'Luis Fonsi', 'Pop', 'Music/Despacito');
+INSERT INTO `song` VALUES(5, 'Industry Baby', 'Montero', 'Lil Nas X', 'Lil Nas X', 'Pop', 'Music/Industry_Baby');
 
 -- Table structure for table `history`;
 
