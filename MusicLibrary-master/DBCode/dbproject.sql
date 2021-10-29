@@ -11,6 +11,7 @@ CREATE TABLE `user` (
   `password` varchar(255) DEFAULT NULL,
   `first_name` varchar(255) DEFAULT NULL,
   `last_name` varchar(255) DEFAULT NULL,
+  'e_mail' varchar(255) DEFAULT NULL,
   `num_of_playlists` int(11) DEFAULT '0',
   PRIMARY KEY (`userID`),
   UNIQUE KEY `user_name_UNIQUE` (`user_name`)
