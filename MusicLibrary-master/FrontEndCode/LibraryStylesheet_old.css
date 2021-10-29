@@ -1,0 +1,22 @@
+#MainForm_Container {
+    width: 600px ;
+   height: 600px ;
+   margin: auto;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+   -webkit-box-sizing: content-box;
+}
+h2{
+    margin: auto;
+    width: 400px ;
+}
+h3{
+    margin: auto;
+    width: 400px ;
+}
+#choice{
+    width: 300px ;
+}
+body {
+    background-color: #6abadeba;
+}
